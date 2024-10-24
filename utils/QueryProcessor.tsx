@@ -12,5 +12,10 @@ export default function QueryProcessor(query: string): string {
     //TODO update the corresponding test case in __tests__
     return ( "maidarus" );
   }
+
+  if (query.includes("What is your name?")) {
+    return "maidarus";
+  }
+
   return "";
 }
