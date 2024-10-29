@@ -12,7 +12,7 @@ export default function QueryProcessor(query: string): string {
   }
 
   if (query.includes("What is your name?")) {
-    return "maidarus";
+    return "maidarus"; //test
   }
 
   if (query.includes("Which of the following numbers is the largest:")) {
